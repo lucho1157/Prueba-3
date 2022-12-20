@@ -65,17 +65,40 @@ body{
     border-radius:22px;
 }
 
+.exper {
+  margin-left: -10px;
+}
+
+
+.logo1 {
+  width: 80px;
+  margin-top: 30px;
+  opacity: 0.5;
+  
+}
 
 
 .logo2 {
   width: 50px;
-  margin-left: 140px;
+  
 }
 
 .logo4 {
-  width: 50px;
-  margin-right: 140px;
+  width: 70px;
+  
 }
+
+@media (max-width: 787px) {
+  .logo1 {
+  width: 50px;
+}
+}
+
+@media (max-width: 576px) {
+  .logo1 {
+    width: 30px;
+  }
+  }
 
 @media (max-width: 787px) {
   .logo2 {
@@ -482,6 +505,11 @@ h3 {
     h3 {
         writing-mode:vertical-lr;
         text-orientation:sideways;
+    }
+    .exper {
+      margin-left: 15px;
+      margin-top: 0px;
+      font-size: 11px;
     }
 }
 
